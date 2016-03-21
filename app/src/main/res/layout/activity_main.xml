@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.dfhe.vpsimpleindicatordemo.VpSimpleIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="#88000000">
+
+        <TextView
+            android:id="@+id/id_tv1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="首页"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#CCFFFFFF"/>
+        <TextView
+            android:id="@+id/id_tv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="新闻"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#CCFFFFFF"/>
+        <TextView
+            android:id="@+id/id_tv3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我的"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#CCFFFFFF"/>
+
+    </com.dfhe.vpsimpleindicatordemo.VpSimpleIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
